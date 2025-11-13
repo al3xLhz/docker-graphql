@@ -28,7 +28,7 @@ jobs:
         docker build -t al3xlhz/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push al3xlhz/docker-graphql:0.0.2 .
+        docker push al3xlhz/docker-graphql:0.0.2
         
     
 #    - name: Build the Docker image
